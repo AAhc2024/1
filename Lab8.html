@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A simple PHP calculator</title>
+</head>
+<body>
+<form action="Lab8.php" method="post">
+	<table>
+		<tr>
+			<th colspan="2" align="center">
+				A simple calculator
+			</th>
+		</tr>
+		<tr>
+			<td>What is your name?</td>
+			<td><input type="text" name="name" /></td>
+		</tr>
+		<tr>
+			<td>Enter the first operand:</td>
+			<td><input type="text" name="1op" /></td>
+		</tr>
+		<tr>
+			<td>Enter the second operand:</td>
+			<td><input type="text" name="2op" /></td>
+		</tr>
+		<tr>
+			<td>Specify the operation:</td>
+			<td>
+				<input type="radio" name="op" value="Add" /> Add<br>
+				<input type="radio" name="op" value="Subtract" /> Subtract<br>
+				<input type="radio" name="op" value="Multiply" /> Multiply<br>
+				<input type="radio" name="op" value="Divide" /> Divide<br>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"> 
+				<input type="submit" value="Calculate" />
+				<input type="reset" value="Reset" />
+			</td>
+		</tr>
+</body>
+</html>
